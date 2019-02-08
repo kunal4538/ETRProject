@@ -47,6 +47,11 @@ public class FragmentActivity extends AppCompatActivity {
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
 
+
+
+
+
+
     }
 
         }
