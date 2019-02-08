@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3c3f53</color>
+    <color name="colorPrimary">#006194</color>
     <color name="colorPrimaryDark">#484c68</color>
-    <color name="colorAccent">#4053ff</color>V
+    <color name="colorAccent">#4053ff</color>
     <color name="backgroundFragment">#767a97</color>
+    <color name="acceptBtn">#2aa70b</color>
+    <color name="rejectBtn">#a73c3c</color>
+    <color name="detailsBtn">#4e61f4</color>
+    <color name="white">#d5d5f2</color>
+    <color name="lines">#39006194</color>
+
+    <color name="pending">#f78a1d</color>
+    <color name="actionBar">#e9e9f5</color>
+
+
+    <color name="black">#000000</color>
+
+
+
 </resources>

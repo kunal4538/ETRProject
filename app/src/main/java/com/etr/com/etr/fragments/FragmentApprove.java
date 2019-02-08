@@ -1,5 +1,6 @@
 package com.etr.com.etr.fragments;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -21,9 +22,7 @@ public class FragmentApprove extends Fragment {
     View view;
     private RecyclerView myRecyclerView;
     private List<Approve> approveList;
-
     public FragmentApprove(){
-
     }
 
     @Nullable
@@ -37,23 +36,14 @@ public class FragmentApprove extends Fragment {
         return view;
     }
 
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         approveList=new ArrayList<>();
-        approveList.add(new Approve("kunal","uk"));
-        approveList.add(new Approve("nishant","china"));
-        approveList.add(new Approve("divya","europe"));
-        approveList.add(new Approve("kashish","uk"));
-        approveList.add(new Approve("chhavi","china"));
-        approveList.add(new Approve("sonika","europe"));
-
-        approveList.add(new Approve("divya","europe"));
-        approveList.add(new Approve("kashish","uk"));
-        approveList.add(new Approve("chhavi","china"));
-        approveList.add(new Approve("sonika","europe"));
+        approveList.add(new Approve("kunal Aggarwal","London"));
+        approveList.add(new Approve("nishant kakkar","London"));
+        approveList.add(new Approve("divya","Europe"));
 
 
 
